@@ -5,7 +5,7 @@ Currently the most extensive set of tools for working with aspect ratio. Support
 ## Install ##
 `npm install aspect-ratio-tools --save`
 
-## Quickstart##
+## Quickstart ##
 ```javascript
 const {AR} = require('aspect-ratio-tools');
 var myAR = new AR(1920,1080);
