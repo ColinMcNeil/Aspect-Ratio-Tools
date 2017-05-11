@@ -18,10 +18,10 @@ class AR{
         this.aspectRatioStr = ''
         this.calcARstring()
     }
-    getAR() {
+    getAR():number {
         return this.aspectRatio;
     }
-    getARString() {
+    getARString():string {
         return this.aspectRatioStr;
     }
     getWidth() {
@@ -71,7 +71,7 @@ class AR{
      /**
      * Sets the new width based on a desired height.
      */
-    getScaledWidth(newHeight: number): void {
+    scaleWidth(newHeight: number): void {
         this.width= newHeight * this.aspectRatio;
     }
     /**
