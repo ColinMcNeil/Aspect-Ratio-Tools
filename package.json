@@ -1,0 +1,11 @@
+{
+  "name": "aspect-ratio-tools",
+  "version": "1.0.0",
+  "description": "Extensive tools for working with image dimensions & aspect ratios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node test.js"
+  },
+  "author": "Colin McNeil",
+  "license": "ISC"
+}
